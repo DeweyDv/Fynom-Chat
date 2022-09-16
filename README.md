@@ -9,3 +9,7 @@ node index.js
 
 # info - help
 If you have questions or need help create an issue or contact me here: Dewey#0547
+
+<br>
+
+![alt text](https://media.discordapp.net/attachments/1018244021354758184/1020469676968525866/unknown.png)
