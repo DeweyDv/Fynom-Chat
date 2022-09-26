@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chat</title>
+        <script src="https://cdn.socket.io/4.5.0/socket.io.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+		<script src="script.js"></script>
+		<link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div style="visibility: hidden;" class="main">
+            <div class="friends">
+                <div class="friends_header">
+                    <center>
+                        <h3 class="friends_header_txt">Online</h3>
+                    </center>
+                </div>
+                <hr />
+                <ul class="friends_row"></ul>
+            </div>
+            <div class="rooms">
+                <div class="rooms_header">
+                    <center>
+                        <h3 class="rooms_header_txt">Rooms</h3>
+                    </center>
+                </div>
+                <hr />
+                <ul class="rooms_row"></ul>
+            </div>
+            <div style="visibility: hidden;" class="chat_default">
+                <button id="close">X</button>
+                <ul class="room1_public"></ul>
+                <input class="input_r1" type="text" placeholder="Message..." />
+                <button id="send_room1">Send</button>
+            </div>
+        </div>
+
+        <div class="index">
+            <button class="join">Join</button>
+			<input class="username" placeholder="Username...">
+        </div>
+    </body>
+</html>
