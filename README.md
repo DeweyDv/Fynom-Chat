@@ -1,11 +1,17 @@
 # Fynom-Chat
-An application that allows you to chat online with friends and people.
+An application that allows you to chat online with friends and people. <br>
 
 # Installation
 git clone https://github.com/DeweyDv/Fynom-Chat.git <br>
 cd Fynom-Chat <br>
 npm install <br>
 node index.js
+
+# Recent updates [V1.1]:
+° [Add] Name <br>
+° [Add] User XP system <br>
+° [Fix] XSS <br>
+° [INF] Major security updates are coming on the next version.
 
 # info - help
 If you have questions or need help create an issue or contact me here: Dewey#0547
